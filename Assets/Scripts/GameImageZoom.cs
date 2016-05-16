@@ -12,6 +12,9 @@ public class GameImageZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         rectTransform = GetComponent<RectTransform>();
         originalPosition = rectTransform.localPosition;
         originalScale = rectTransform.localScale;
+
+        // The Image wil be the last in the hierarchy, so it will overlap everything below it in the scene
+        transform.SetAsLastSibling();
     }
 
     public void OnPointerDown(PointerEventData eventData)
