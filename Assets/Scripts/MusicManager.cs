@@ -25,7 +25,8 @@ public class MusicManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        audioSource.volume = volumeSlider.value;
+        if (volumeSlider)
+            audioSource.volume = volumeSlider.value;
     }
 
     public void ChangeVolume(float volume)
