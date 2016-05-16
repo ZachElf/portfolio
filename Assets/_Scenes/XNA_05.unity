@@ -412,6 +412,28 @@ Prefab:
       propertyPath: m_Text
       value: Gemstone Hunter
       objectReference: {fileID: 0}
+    - target: {fileID: 11483296, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
+      propertyPath: m_Text
+      value: "Az utols\xF3 j\xE1t\xE9k neve Gemstone Hunter. Ez egy platformer, ugr\xE1l\xF3s,
+        kaland j\xE1t\xE9k, ahol a p\xE1ly\xE1k v\xE9gig v\xE9tele a c\xE9l, mik\xF6zben
+        dr\xE1gak\xF6veket gy\u0171jt\xFCnk, \xE9s az ellenfeleket meg\xF6lj\xFCk,
+        avagy kiker\xFClj\xFCk \u0151ket. Ez a j\xE1t\xE9k k\xE9t projectb\u0151l
+        \xE1ll. Egyik egy t\xF6bb r\xE9teg\u0171 p\xE1lyaszerkeszt\u0151, a m\xE1sik
+        maga a j\xE1t\xE9k. El\u0151sz\xF6r a p\xE1lyaszerkeszt\u0151 k\xE9sz\xFClt
+        el, windows form seg\xEDts\xE9g\xE9vel. Ez a szerkeszt\u0151 olyan p\xE1ly\xE1k
+        elk\xE9sz\xEDt\xE9s\xE9t, elment\xE9s\xE9t, \xE9s bet\xF6lt\xE9s\xE9t teszi
+        lehet\u0151v\xE9, amik t\xF6bb szintb\u0151l \xE1llnak. Ezt \xFAgy kell \xE9rteni,
+        hogy van egy h\xE1tt\xE9r r\xE9teg, egy interakt\xEDv r\xE9teg, \xE9s egy
+        el\u0151t\xE9r r\xE9teg. \xC9rtelemszer\u0171en a karakter\xFCnk az interakt\xEDv
+        r\xE9tegben j\xE1r-kel, m\xEDg a h\xE1tt\xE9r r\xE9teg a h\xE1tteret, \xE9gboltot
+        adja meg, \xE9s az el\u0151t\xE9r r\xE9tegbe ker\xFCl p\xE9ld\xE1ul a f\u0171,
+        vagy titkos j\xE1ratok, amik falnak l\xE1tszanak, de m\xF6g\xF6tt\xFCk el
+        lehet menni.\r\nMaga a j\xE1t\xE9k a saj\xE1t p\xE1lyaszerkeszt\u0151j\xE9vel
+        k\xE9sz\xEDtett p\xE1ly\xE1kat tudja bet\xF6lteni, majd a j\xE1t\xE9kos \xE1ltal
+        ir\xE1ny\xEDtott karakter, a p\xE1ly\xE1n l\xE9v\u0151 elemekkel a megfelel\u0151
+        m\xF3don interakci\xF3ba l\xE9p. Ebben a j\xE1t\xE9kban is tile-okb\xF3l \xE9p\xEDtj\xFCk
+        fel a p\xE1ly\xE1t, az el\u0151z\u0151ekhez hasonl\xF3an.\r\n"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
   m_IsPrefabParent: 0

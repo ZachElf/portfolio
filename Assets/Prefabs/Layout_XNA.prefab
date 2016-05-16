@@ -77,6 +77,7 @@ GameObject:
   - 224: {fileID: 22423788}
   - 222: {fileID: 22231512}
   - 114: {fileID: 11440546}
+  - 114: {fileID: 11420060}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -195,6 +196,17 @@ MonoBehaviour:
   m_Text: 'Vissza
 
 '
+--- !u!114 &11420060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15293334c19e8846ae04d82eea25cac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11440546
 MonoBehaviour:
   m_ObjectHideFlags: 1
