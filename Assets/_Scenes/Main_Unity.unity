@@ -1352,9 +1352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- Zombie Runner
-
-'
+  m_Text: '- Invisible Platformer'
 --- !u!222 &1176907437
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2153,7 +2151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- Bowl Master'
+  m_Text: '- Zombie Runner'
 --- !u!222 &2027044124
 CanvasRenderer:
   m_ObjectHideFlags: 0

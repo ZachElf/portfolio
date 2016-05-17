@@ -166,7 +166,36 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11488966, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_Text
-      value: Unity 05
+      value: Glitch Garden
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451152, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ad75822443d305c4ab4b9ce4e1a8bc1c,
+        type: 3}
+    - target: {fileID: 22411900, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 1104
+      objectReference: {fileID: 0}
+    - target: {fileID: 22411900, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 621
+      objectReference: {fileID: 0}
+    - target: {fileID: 22411900, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -340
+      objectReference: {fileID: 0}
+    - target: {fileID: 22411900, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.000005722046
+      objectReference: {fileID: 0}
+    - target: {fileID: 22425814, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 281
+      objectReference: {fileID: 0}
+    - target: {fileID: 22425814, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 644
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
