@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class Paging : MonoBehaviour
 {
+    public Text[] textArray;
+
+    // Prev button - 0, Page number section - 1, Next button - 2
     private Text[] objs;
     private int currentPage = 1;
 
@@ -16,30 +19,22 @@ public class Paging : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentPage == 1)
-        {
-            objs[0].enabled = false;
-        }
-        else if (currentPage == 3)
-        {
-            objs[2].enabled = false;
-        }
-
-        if (currentPage == 2)
-        {
-            objs[0].enabled = true;
-            objs[2].enabled = true;
-        }
-
-        objs[1].text = currentPage + "/3";
+        objs[1].text = currentPage + "/" + textArray.Length;
     }
 
     public void PageNext()
     {
-        if (currentPage < 3)
+        if (currentPage < textArray.Length)
         {
+            textArray[currentPage - 1].enabled = false;
+            textArray[currentPage].enabled = true;
             currentPage++;
 
+            //objs[2].enabled = true;
+
+            //// If there is no more next page, the next button disappears
+            //if (currentPage == textArray.Length)
+            //    objs[2].enabled = false;
         }
     }
 
@@ -47,8 +42,15 @@ public class Paging : MonoBehaviour
     {
         if (currentPage > 1)
         {
+            textArray[currentPage - 1].enabled = false;
+            textArray[currentPage - 2].enabled = true;
             currentPage--;
 
+            //objs[0].enabled = true;
+
+            //// If there is no more next page, the next button disappears
+            //if (currentPage == textArray.Length)
+            //    objs[0].enabled = false;
         }
     }
 }
