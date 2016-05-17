@@ -14,6 +14,14 @@ public class Paging : MonoBehaviour
     void Start()
     {
         objs = GetComponentsInChildren<Text>();
+
+        if (textArray.Length <= 1)
+        {
+            foreach (var item in objs)
+            {
+                item.enabled = false;
+            }
+        }
     }
 
     // Update is called once per frame
