@@ -8,9 +8,15 @@ public class MusicManager : MonoBehaviour
     public Slider volumeSlider;
 
     private AudioSource audioSource;
+    private static MusicManager instance;
 
     void Awake()
     {
+        if (!instance)
+            instance = this;
+        else
+            Destroy(gameObject);
+
         DontDestroyOnLoad(gameObject);
     }
 
