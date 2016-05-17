@@ -454,6 +454,16 @@ Prefab:
       propertyPath: m_Text
       value: Asteroid Belt Assault
       objectReference: {fileID: 0}
+    - target: {fileID: 11483296, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
+      propertyPath: m_Text
+      value: "Egyszer\u0171, tipikus Space-shooter j\xE1t\xE9k. Van egy \u0171rhaj\xF3d,
+        amivel mozogsz \xE9s l\u0151sz. Az ellenfelek csoportokban j\xF6nnek, egy
+        el\u0151re megadott \xFAtvonalon, ha eltal\xE1lod \u0151ket felrobbannak.
+        Aszteroid\xE1k v\xE9letlenszer\u0171en jelennek meg, \xE9s befoly\xE1solhatod
+        a  r\xF6pp\xE1ly\xE1jukat ha sokat bel\xE9j\xFCk l\u0151sz. A h\xE1tt\xE9rben
+        a csillagok is mozognak, azt a hat\xE1st keltve, mintha t\xE9nyleg az \u0171rben
+        mozogn\xE1l."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
   m_IsPrefabParent: 0

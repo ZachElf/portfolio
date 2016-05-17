@@ -454,6 +454,18 @@ Prefab:
       propertyPath: m_Text
       value: Flood Control
       objectReference: {fileID: 0}
+    - target: {fileID: 11483296, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
+      propertyPath: m_Text
+      value: "Connect the pipes st\xEDlus\xFA j\xE1t\xE9k. Az els\u0151 oszlop fel\u0151l
+        \xE1ramlik a v\xEDz, \xE9s a te feladatod hogy egy olyan cs\u0151h\xE1l\xF3zatot
+        forgass ki, ami \xF6sszekapcsolja a jobb sz\xE9ls\u0151 oszloppal. Ha ez megt\xF6rt\xE9nt,
+        a v\xEDz szint lejjebb megy, pontot kapsz annak f\xFCggv\xE9n\xE9yben, hogy
+        mennyi cs\xF6vet haszn\xE1lt\xE1l fel, \xE9s a felhaszn\xE1lt cs\xF6vek hely\xE9re
+        \xFAjak j\xF6nnek fel\xFClr\u0151l. Egy bizonyos pontmennyis\xE9g ut\xE1n
+        a j\xE1t\xE9k szintet l\xE9p, \xE9s gyorsabban emelkedik a v\xEDz szint, azaz
+        kevesebb id\u0151d lesz el\xE9rni az \xFAjabb pont hat\xE1rt a k\xF6vetkez\u0151
+        szinthez."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
   m_IsPrefabParent: 0

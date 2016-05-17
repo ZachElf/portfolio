@@ -445,6 +445,18 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 11483296, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
+      propertyPath: m_Text
+      value: "Egy z\xF6ld tankkal mozogsz az akad\xE1lyokkal, \xE9s ellenfelekkel
+        teli p\xE1ly\xE1n, \xE9s a c\xE9lod, hogy a v\xE9letlenszer\u0171en elhelyezett
+        \xF6sszes termin\xE1lt megl\xE1togasd, ezzel kikapcsolva \u0151ket. Ezt a
+        c\xE9lt pr\xF3b\xE1lj\xE1k megakad\xE1lyozni az ellenf\xE9l tankok, amiket
+        egy A* nevezet\u0171 \xFAtkeres\u0151 algoritmus vez\xE9rel. Ugyancsak ezzel
+        az elgoritmussal van biztos\xEDtva, hogy a megjelen\u0151 powerup-ok ne ker\xFClhessenek
+        olyan helyre, ahova nem lehet eljutni.\nA j\xE1t\xE9kt\xE9r nagyobb, mint
+        amit a kamera bel\xE1t, \xEDgy nem lehet l\xE1tni merre van az \xF6sszes termin\xE1l,
+        \xE9s merr\u0151l j\xF6n esetleg m\xE9g t\xF6bb ellenf\xE9l tank."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
   m_IsPrefabParent: 0

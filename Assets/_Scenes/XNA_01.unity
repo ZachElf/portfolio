@@ -175,24 +175,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11483296, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
       propertyPath: m_Text
-      value: "TODO: MEG\xCDRNI EZT Harmadik j\xE1t\xE9k \u2013 amely egyben azon j\xE1t\xE9kok
-        k\xF6z\xFCl, amelyekb\u0151l sokat mer\xEDtettem a m\xE1sodik \u2013 neve
-        Robot Rampage. Itt mutatta be, hogyan lehet egy a k\xE9perny\u0151n\xE9l nagyobb
-        vil\xE1gunk, \xE9s egy sprite oszt\xE1lyt, ami ismeri a koordin\xE1t\xE1kat
-        a nagy vil\xE1gban. Majd bemutat\xE1sra ker\xFClt a csempeszer\u0171 (tile
-        based) p\xE1lya kialak\xEDt\xE1sa, a j\xE1t\xE9kos karakter\xE9nek t\xF6bb
-        sprite-b\xF3l val\xF3 \xF6sszerak\xE1sa, valamint \xFCtk\xF6z\xE9s sprite
-        objektumok \xE9s a tile-ok k\xF6z\xF6tt. Ami izgalmas volt m\xE9g e j\xE1t\xE9k
-        meg\xEDr\xE1sakor, amikor az \xFAgynevezett A* algoritmus seg\xEDts\xE9g\xE9vel
-        adtunk egy mesters\xE9ges intelligenci\xE1t az ellenf\xE9l tankoknak. Ez ugyan
-        \u201Ecsak\u201D egy \xFAtkeres\u0151 algoritmus, ami a legr\xF6videbb utat
-        keresi a j\xE1t\xE9kos \xE1ltal ir\xE1ny\xEDtott tank, \xE9s az ellenf\xE9l
-        tankok k\xF6z\xF6tt, de ett\u0151l olyan a j\xE1t\xE9k, mintha tudn\xE1nak
-        gondolkodni az ellenfelek. Ugyancsak az algoritmus felhaszn\xE1l\xE1s\xE1val
-        lehetett el\xE9rni, hogy a felvehet\u0151 er\u0151s\xEDt\u0151 t\xE1rgyakat
-        a j\xE1t\xE9k ne rakja el\xE9rhetetlen helyekre. Ugyanis ha volt egy j\xE1rhat\xF3
-        \xFAt az algoritmus szerint a j\xE1t\xE9kos \xE9s a t\xE1rgy k\xF6z\xF6tt,
-        akkor nincs elz\xE1rva a t\xE1rgy.\r\n"
+      value: "Els\u0151 XNA-val k\xE9sz\xFClt j\xE1t\xE9kom. \nA forg\xF3 k\xE9k-z\xF6ld-piros
+        \"karaktert\" az eg\xE9rrel ir\xE1ny\xEDtjuk. A t\xF6bbi mozg\xF3 t\xE1rgy
+        az ellenf\xE9l, akik v\xE9letlenszer\u0171 ir\xE1nyb\xF3l, egy m\xE1sik ir\xE1nyba
+        haladnak. Van olyan is, amelyik a j\xE1t\xE9kos karakter\xE9t pr\xF3b\xE1lja
+        k\xF6vetni, \xFAgy hogy k\xF6zel\xEDt fel\xE9, de vissza nem fordul sosem.\nA
+        j\xE1t\xE9knak v\xE9ge, ha elfogy mind a 3 \xE9leted."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99739ce78ba9d7a42b246b0e558c3ce3, type: 2}
