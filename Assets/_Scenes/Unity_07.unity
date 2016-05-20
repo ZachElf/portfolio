@@ -174,11 +174,40 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 165210, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11477998, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_Interactable
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Text
+      value: "Platformer, egy kis csavarral. Csak a karakteredet l\xE1tod, \xE9s a
+        ParticleSystem \xE1ltal kirajzolt p\xE1ly\xE1t. \xCDgy kell megtal\xE1lnod
+        a helyes, j\xE1rhat\xF3 utat. Mivel 2D-s a j\xE1t\xE9k, \xEDgy csak azt l\xE1tod
+        ahol p\xE9ld\xE1ul a h\xF3pelyhek megmaradnak n\xE9h\xE1ny m\xE1sodpercig,
+        vagy az es\u0151csepp  ahogy f\xF6ldet \xE9r. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 11451152, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 12dcb07a590ab224c8e52e07d75d42ae,
+        type: 3}
+    - target: {fileID: 22411900, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 871
+      objectReference: {fileID: 0}
+    - target: {fileID: 22411900, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 594
+      objectReference: {fileID: 0}
+    - target: {fileID: 22411900, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 22411900, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
