@@ -92,6 +92,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 921434993}
     m_Modifications:
+    - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: textArray.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 22436036, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -199,8 +203,26 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_Text
-      value: "R\xF6viden; ez egy Plants vs. Zombies kl\xF3n."
+      value: "R\xF6viden; ez egy Plants vs. Zombies kl\xF3n.\nA j\xE1t\xE9k c\xE9lja,
+        hogy adott id\u0151 alatt megv\xE9dd a kerted a t\xE1mad\xF3 \xE1llatokt\xF3l.
+        Az id\u0151 m\xFAl\xE1s\xE1t a k\xE9perny\u0151 tetej\xE9n l\xE9v\u0151 feh\xE9r
+        s\xE1v jelzi, ha az v\xE9gig \xE9rt, akkor sikeresen teljes\xEDtetted az adott
+        p\xE1ly\xE1t. Alapb\xF3l a j\xE1t\xE9kos bizonyos sz\xE1m\xFA ponttal kezd,
+        amib\u0151l lerakhatja a saj\xE1t l\xE9nyeit v\xE9dekez\xE9s, vagy \xE9pp
+        pontgy\u0171jt\xE9s szempontj\xE1b\xF3l."
       objectReference: {fileID: 0}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: textArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 1521538179}
+    - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: textArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 989331512}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
   m_IsPrefabParent: 0
@@ -362,6 +384,86 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &989331510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 113850, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 989331511}
+  - 222: {fileID: 989331513}
+  - 114: {fileID: 989331512}
+  m_Layer: 5
+  m_Name: Text_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &989331511
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22425814, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 989331510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 619559781}
+  m_RootOrder: 9
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 281, y: 1}
+  m_SizeDelta: {x: 644, y: 303}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &989331512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 989331510}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a7f7c74453f92f14281c39394b2604a1, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Ellenfelek:\n- Gy\xEDk: ar\xE1nylag lass\xFA, k\xF6zepes \xE9lete van,
+    \xE9s ha oda\xE9r egy v\xE9dekez\u0151 l\xE9ny\xFCnkh\xF6z, elkezdi azt t\xE1madni.\n-
+    R\xF3ka: Kev\xE9s \xE9lete van, gyorsan mozog, \xE9s ravaszs\xE1ga folyt\xE1n
+    a s\xEDrk\xF6veket \xE1tugorja. Vigy\xE1zni kell ezzel a k\xE9pess\xE9g\xE9vel,
+    k\xFCl\xF6nben p\xF3rul j\xE1rhatunk."
+--- !u!222 &989331513
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22250078, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 989331510}
 --- !u!1 &1129754306
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,3 +550,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &1521538177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 113850, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1521538178}
+  - 222: {fileID: 1521538180}
+  - 114: {fileID: 1521538179}
+  m_Layer: 5
+  m_Name: Text_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1521538178
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22425814, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521538177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 619559781}
+  m_RootOrder: 8
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 281, y: 1}
+  m_SizeDelta: {x: 644, y: 303}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1521538179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521538177}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a7f7c74453f92f14281c39394b2604a1, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Minden l\xE9ny - legyen az a v\xE9dekez\u0151, vagy a t\xE1mad\xF3 oldalon
+    - anim\xE1lva van, \xE9s saj\xE1t \xE9leterej\xFCk, esetleg t\xE1mad\xF3 \xE9rt\xE9k\xFCk
+    van. \n- Kaktusz p\xE9ld\xE1ul olcs\xF3, kev\xE9s \xE9letereje van, keveset sebz\u0151
+    gyors l\xF6ved\xE9keket (cukkiniket) l\u0151, ha megl\xE1t az \u0151 sor\xE1ban
+    egy ellenfelet. \n- A kerti t\xF6rpe, vagy gn\xF3m t\xF6bbe ker\xFCl, de er\u0151sebb,
+    lass\xFA l\xF6ved\xE9keket (fejsz\xE9ket) l\u0151.\n- A nap szobor nem sebez,
+    viszont csak ez termeli a j\xE1t\xE9koksnak a pontot, amib\u0151l k\xF6ltekezhet.\n-
+    A s\xEDrk\u0151nek nagyon sok \xE9lete van, nem sebez, de sok\xE1ig lefoglalja
+    az ellenfeleket, am\xEDg pr\xF3b\xE1lnak \xE1tjutni rajtuk."
+--- !u!222 &1521538180
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22250078, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521538177}
