@@ -118,8 +118,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 119.5, y: 25}
-  m_SizeDelta: {x: 240, y: 50}
+  m_AnchoredPosition: {x: 70, y: 25}
+  m_SizeDelta: {x: 142, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &42793372
 MonoBehaviour:
@@ -207,7 +207,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Vissza a men\xFCbe\n"
+  m_Text: "F\u0151men\xFC"
 --- !u!222 &42793374
 CanvasRenderer:
   m_ObjectHideFlags: 0
