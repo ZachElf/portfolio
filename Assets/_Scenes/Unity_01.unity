@@ -217,6 +217,14 @@ Prefab:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Text
+      value: "Nagyon alap, egyszer\u0171 kis \"j\xE1t\xE9k\". Mind\xF6ssze annyit
+        tud, hogy te gondolsz egy sz\xE1mra 1 \xE9s 1000 k\xF6z\xF6tt, a g\xE9p tippel
+        valamire, \xE9s te mondod neki, hogy nagyobb, avagy kisebb amire gondolt\xE1l.
+        Egy bizonyos sz\xE1m\xFA tippel\xE9s ut\xE1n ha nem tal\xE1lta el, akkor nyert\xE9l,
+        ellenkez\u0151 esetben vesztett\xE9l."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
   m_IsPrefabParent: 0

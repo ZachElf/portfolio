@@ -166,13 +166,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11488966, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_Text
-      value: Text 101
+      value: Prison
       objectReference: {fileID: 0}
     - target: {fileID: 11451152, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e08008aa8479395449f986a0ba49f8ea,
         type: 3}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Text
+      value: "R\xE9ges r\xE9gen m\xE9g sz\xF6veges alap\xFA szerepj\xE1t\xE9kok l\xE9teztek.
+        Ez is egy ilyen, viszont k\xF6zel sem olyan terjedelmes. A j\xE1t\xE9kos elolvassa
+        mit l\xE1t, hol van, valamint p\xE1r el\xE9rhet\u0151 tev\xE9kenys\xE9get.
+        Eld\xF6nti mit szeretne tenni a megfelel\u0151 tev\xE9kenys\xE9ghez tartoz\xF3
+        gomb lenyom\xE1s\xE1val, \xEDgy tov\xE1bb halad a t\xF6rt\xE9netben. \nEgy
+        s\xF6t\xE9t cell\xE1ban \xE9bredsz, vajon ki tudsz e jutni a b\xF6rt\xF6nb\u0151l?"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
   m_IsPrefabParent: 0

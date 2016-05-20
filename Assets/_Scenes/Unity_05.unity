@@ -197,6 +197,10 @@ Prefab:
       propertyPath: m_SizeDelta.x
       value: 644
       objectReference: {fileID: 0}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Text
+      value: "R\xF6viden; ez egy Plants vs. Zombies kl\xF3n."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
   m_IsPrefabParent: 0

@@ -92,6 +92,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 921434993}
     m_Modifications:
+    - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: textArray.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 22436036, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -173,6 +177,26 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 8c78cf09815c25845bed6183d0d8b183,
         type: 3}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Text
+      value: "A j\xE1t\xE9kos a k\xE9perny\u0151 alj\xE1n l\xE9v\u0151 sz\xFCrke t\xE9gl\xE1t
+        ir\xE1ny\xEDtja, amelyik csak horizont\xE1lisan tud mozogni. A c\xE9l, hogy
+        a t\xE9gl\xE1d (\xFCt\u0151) seg\xEDts\xE9g\xE9vel a labd\xE1t a p\xE1ly\xE1n
+        tartva az \xF6sszes sz\xEDnes t\xE9gl\xE1t sz\xE9t kell t\xF6rnie. Minden
+        sz\xEDn valamilyen er\u0151ss\xE9get jel\xF6l, a citroms\xE1rga egyb\u0151l
+        t\xF6rik, a narancss\xE1rg\xE1t k\xE9tszer kell eltal\xE1lni, a pirosat 3szor,
+        m\xEDg a sz\xFCrk\xE9t nem lehet elpuszt\xEDtani. A t\xE9gl\xE1k k\xFCl\xF6nb\xF6z\u0151
+        t\xF6r\xF6tts\xE9gi \xE1llapot\xE1t reped\xE9sek jelzik. Ha elt\xF6r\xFCnk
+        egy t\xE9gl\xE1t hang, \xE9s egy kis f\xFCst jelzi azt. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: textArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 880672014}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
   m_IsPrefabParent: 0
@@ -242,6 +266,86 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!1 &880672012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 113850, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 880672013}
+  - 222: {fileID: 880672015}
+  - 114: {fileID: 880672014}
+  m_Layer: 5
+  m_Name: Text_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &880672013
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22425814, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880672012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 619559781}
+  m_RootOrder: 7
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 205, y: 0.14001465}
+  m_SizeDelta: {x: 797, y: 302}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &880672014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880672012}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a7f7c74453f92f14281c39394b2604a1, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Amennyiben minden (nem sz\xFCrke) t\xE9gla elt\xF6rt, a j\xE1t\xE9k a k\xF6vetkez\u0151
+    p\xE1ly\xE1ra l\xE9p.\nMin\xE9l tov\xE1bb j\xE1tszunk egy p\xE1ly\xE1n, ann\xE1l
+    gyorsabb lesz a goly\xF3, nehez\xEDtve a j\xE1t\xE9kot. A goly\xF3 sz\xF6g\xE9t
+    befoly\xE1solhatjuk \xFAgy, hogy az \xFCt\u0151nk megfelel\u0151 sz\xE9l\xE9r\u0151l
+    pattintjuk vissza a goly\xF3t."
+--- !u!222 &880672015
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22250078, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880672012}
 --- !u!1 &921434989
 GameObject:
   m_ObjectHideFlags: 0

@@ -1066,10 +1066,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11445118, guid: 4c62445081447a142ae5bca198a0e0e1, type: 2}
-      propertyPath: volumeSlider
-      value: 
-      objectReference: {fileID: 1727725504}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4c62445081447a142ae5bca198a0e0e1, type: 2}
   m_IsPrefabParent: 0

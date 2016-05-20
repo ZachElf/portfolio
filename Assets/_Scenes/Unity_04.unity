@@ -92,6 +92,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 921434993}
     m_Modifications:
+    - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: textArray.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 22436036, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -197,6 +201,24 @@ Prefab:
       propertyPath: m_SizeDelta.x
       value: 516
       objectReference: {fileID: 0}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Text
+      value: "Hagyom\xE1nyos space-shooter. Egy \u0171rhaj\xF3t ir\xE1ny\xEDtasz a
+        k\xE9perny\u0151 als\xF3 r\xE9sz\xE9n, l\xE9zerrel t\xE1madsz, \xE9s elpuszt\xEDtod
+        a hull\xE1mokban \xE9rkez\u0151 ellenf\xE9l \u0171rhaj\xF3kat.\nHa egy hull\xE1mnak
+        v\xE9ge, v\xE9letlenszer\u0171 helyr\u0151l \xE9rkezik egy, a t\xF6bb powerup
+        k\xF6z\xFCl. Ilyen powerup p\xE9ld\xE1ul a shield, ami bizonyos ideig sebezhetetlens\xE9get
+        szolg\xE1l, vagy a sebess\xE9g kapszula, amivel sokkal gyorsabban mozoghatsz
+        egy ideig. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: textArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 1592183953}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
   m_IsPrefabParent: 0
@@ -444,3 +466,86 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!1 &1592183951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 113850, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1592183952}
+  - 222: {fileID: 1592183954}
+  - 114: {fileID: 1592183953}
+  m_Layer: 5
+  m_Name: Text_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1592183952
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22425814, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1592183951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 619559781}
+  m_RootOrder: 7
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 346, y: 0.14001465}
+  m_SizeDelta: {x: 516, y: 302}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1592183953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1592183951}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a7f7c74453f92f14281c39394b2604a1, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Az \u0171rhaj\xF3d \xE9leterej\xE9t a bal als\xF3 sarokban l\xE9v\u0151
+    z\xF6ld cs\xEDk mutatja. Ha sebz\u0151dsz, a sebz\xE9s m\xE9rt\xE9k\xE9nek megfelel\u0151en
+    fogy az \xE9leter\u0151d. A felvett powerupok ezen \xE9leter\u0151 cs\xEDk felett
+    jelennek meg, majd t\u0171nnek el ha lej\xE1rt a hat\xE1suk.\nAz eg\xE9sz j\xE1t\xE9kt\xE9r
+    m\xF6g\xF6tt k\xE9t particle system szolg\xE1ltatja az \u0171r, \xE9s a csillagok
+    hat\xE1s\xE1t. Az\xE9rt kett\u0151, mert \xEDgy m\xE9llyebb a hat\xE1s, realisztikusabb
+    a k\xF6zeli \xE9s t\xE1voli csillagok sebess\xE9ge, \xE9s ir\xE1nya hozz\xE1nk
+    k\xE9pest."
+--- !u!222 &1592183954
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22250078, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1592183951}

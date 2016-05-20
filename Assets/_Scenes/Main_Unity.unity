@@ -451,7 +451,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TODO
+  m_Text: Space shooter, powerup-okkal
 --- !u!222 &209708078
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -524,7 +524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TODO
+  m_Text: "Ahogy a neve is mondja, \xFCsd le az \xF6sszes t\xE9gl\xE1t egy goly\xF3val"
 --- !u!222 &285805273
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -597,7 +597,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TODO
+  m_Text: "\u0150sid\u0151k sz\xF6veges RPG-j\xE9t id\xE9z\u0151 j\xE1t\xE9k"
 --- !u!222 &452475581
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TODO
+  m_Text: "Plants vs. Zombies kl\xF3n"
 --- !u!222 &575790432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TODO
+  m_Text: "Gondolj egy sz\xE1mra, x. tippre eltal\xE1lom-e?"
 --- !u!222 &605764018
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1524,7 +1524,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '- Text 101'
+  m_Text: '- Prison'
 --- !u!222 &1310452128
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1723,7 +1723,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TODO
+  m_Text: "Platformer kezdem\xE9nyez\xE9s, l\xE1thatatlan p\xE1ly\xE1n"
 --- !u!222 &1630221865
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2025,7 +2025,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TODO
+  m_Text: "3D-s First Person t\xFAl\xE9l\u0151"
 --- !u!222 &2021552280
 CanvasRenderer:
   m_ObjectHideFlags: 0
