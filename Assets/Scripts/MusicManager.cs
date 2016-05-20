@@ -17,6 +17,12 @@ public class MusicManager : MonoBehaviour
         else
             Destroy(gameObject);
 
+        if (!volumeSlider)
+        {
+            //Debug.Log("there is no volumeslider attached to music manager");
+            volumeSlider = FindObjectOfType<Slider>();
+        }
+
         DontDestroyOnLoad(gameObject);
     }
 
