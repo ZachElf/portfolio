@@ -5,10 +5,10 @@ using UnityEngine.UI;
 public class MusicManager : MonoBehaviour
 {
     public AudioClip audioClip;
-    public Slider volumeSlider;
 
     private AudioSource audioSource;
     private static MusicManager instance;
+    private static Slider volumeSlider;
 
     void Awake()
     {
@@ -17,11 +17,8 @@ public class MusicManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        if (!volumeSlider)
-        {
-            //Debug.Log("there is no volumeslider attached to music manager");
-            volumeSlider = FindObjectOfType<Slider>();
-        }
+        volumeSlider = FindObjectOfType<Slider>();
+        volumeSlider.value = PrefsManager.GetMasterVolume();
 
         DontDestroyOnLoad(gameObject);
     }
@@ -31,7 +28,7 @@ public class MusicManager : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.volume = PrefsManager.GetMasterVolume();
-        volumeSlider.value = PrefsManager.GetMasterVolume();
+        //volumeSlider.value = PrefsManager.GetMasterVolume();
     }
 
     // Update is called once per frame
