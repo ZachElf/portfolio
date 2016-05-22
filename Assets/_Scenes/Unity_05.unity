@@ -85,6 +85,86 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &204482650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 113850, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 204482651}
+  - 222: {fileID: 204482653}
+  - 114: {fileID: 204482652}
+  m_Layer: 5
+  m_Name: Text_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &204482651
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22425814, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204482650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 619559781}
+  m_RootOrder: 9
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 281, y: 1}
+  m_SizeDelta: {x: 644, y: 303}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &204482652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11452760, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204482650}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: a7f7c74453f92f14281c39394b2604a1, type: 3}
+    m_FontSize: 35
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "- A nap szobor nem sebez, viszont csak ez termeli a j\xE1t\xE9koksnak a
+    pontot, amib\u0151l k\xF6ltekezhet. J\xF3l gondold meg a nap szobroknak, \xE9s
+    a t\xF6bbi v\xE9dekez\u0151 egys\xE9genek az ar\xE1ny\xE1t.\n- A s\xEDrk\u0151nek
+    nagyon sok \xE9lete van, nem sebez, de sok\xE1ig lefoglalja az ellenfeleket, am\xEDg
+    pr\xF3b\xE1lnak \xE1tjutni rajtuk."
+--- !u!222 &204482653
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 22250078, guid: 5e0c78010d63f46459de07c9d6b34726,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204482650}
 --- !u!1001 &609074122
 Prefab:
   m_ObjectHideFlags: 0
@@ -94,7 +174,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: textArray.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 22436036, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: m_LocalPosition.x
@@ -221,6 +301,10 @@ Prefab:
       objectReference: {fileID: 1521538179}
     - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
       propertyPath: textArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 204482652}
+    - target: {fileID: 11441170, guid: 5e0c78010d63f46459de07c9d6b34726, type: 2}
+      propertyPath: textArray.Array.data[3]
       value: 
       objectReference: {fileID: 989331512}
     m_RemovedComponents: []
@@ -395,7 +479,7 @@ GameObject:
   - 222: {fileID: 989331513}
   - 114: {fileID: 989331512}
   m_Layer: 5
-  m_Name: Text_3
+  m_Name: Text_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +497,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 619559781}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 281, y: 1}
@@ -441,9 +525,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: a7f7c74453f92f14281c39394b2604a1, type: 3}
-    m_FontSize: 30
+    m_FontSize: 35
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 3
@@ -607,9 +691,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: a7f7c74453f92f14281c39394b2604a1, type: 3}
-    m_FontSize: 30
+    m_FontSize: 35
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
     m_Alignment: 3
@@ -620,13 +704,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Minden l\xE9ny - legyen az a v\xE9dekez\u0151, vagy a t\xE1mad\xF3 oldalon
     - anim\xE1lva van, \xE9s saj\xE1t \xE9leterej\xFCk, esetleg t\xE1mad\xF3 \xE9rt\xE9k\xFCk
-    van. \n- Kaktusz p\xE9ld\xE1ul olcs\xF3, kev\xE9s \xE9letereje van, keveset sebz\u0151
+    van.\n- Kaktusz p\xE9ld\xE1ul olcs\xF3, kev\xE9s \xE9letereje van, keveset sebz\u0151
     gyors l\xF6ved\xE9keket (cukkiniket) l\u0151, ha megl\xE1t az \u0151 sor\xE1ban
     egy ellenfelet. \n- A kerti t\xF6rpe, vagy gn\xF3m t\xF6bbe ker\xFCl, de er\u0151sebb,
-    lass\xFA l\xF6ved\xE9keket (fejsz\xE9ket) l\u0151.\n- A nap szobor nem sebez,
-    viszont csak ez termeli a j\xE1t\xE9koksnak a pontot, amib\u0151l k\xF6ltekezhet.\n-
-    A s\xEDrk\u0151nek nagyon sok \xE9lete van, nem sebez, de sok\xE1ig lefoglalja
-    az ellenfeleket, am\xEDg pr\xF3b\xE1lnak \xE1tjutni rajtuk."
+    lass\xFA l\xF6ved\xE9keket (fejsz\xE9ket) l\u0151."
 --- !u!222 &1521538180
 CanvasRenderer:
   m_ObjectHideFlags: 0
