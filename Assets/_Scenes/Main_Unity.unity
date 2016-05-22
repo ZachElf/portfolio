@@ -378,7 +378,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Tipp: A k\xE9s\u0151bbiekben a k\xE9peket ki lehet nagy\xEDtani ha rajtuk
-    nyomva tartja a bal eg\xE9rgombot."
+    nyomva tartod a bal eg\xE9rgombot."
 --- !u!222 &148878084
 CanvasRenderer:
   m_ObjectHideFlags: 0

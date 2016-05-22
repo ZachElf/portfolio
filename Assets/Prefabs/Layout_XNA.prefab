@@ -255,7 +255,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tov\xE1bb"
+  m_Text: "K\xF6vetkez\u0151"
 --- !u!114 &11420060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -328,7 +328,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 11471994}
   m_OnClick:
     m_PersistentCalls:
@@ -489,7 +489,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Vissza
+  m_Text: "El\u0151z\u0151"
 --- !u!114 &11483296
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -584,7 +584,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 454, y: -335}
+  m_AnchoredPosition: {x: 403.5, y: -335}
   m_SizeDelta: {x: 107, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22423272
@@ -693,8 +693,8 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 586.5, y: -335}
-  m_SizeDelta: {x: 107, y: 50}
+  m_AnchoredPosition: {x: 560, y: -335}
+  m_SizeDelta: {x: 143.25, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22493656
 RectTransform:
